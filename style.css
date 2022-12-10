@@ -86,9 +86,9 @@ body {
 }
 
 .tabset {
-  max-width: 65em;
+  max-width: fit-content;
 }
-.parallax {
+.parallaxPhone{
   /* The image used */
   background-image: url("websitepic.png");
 
@@ -97,7 +97,27 @@ body {
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  background-position: center;
+  background-position: right;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
+}
+.parallaxCalc {
+  /* The image used */
+  background-image: url("WebsiteCalcPic.png");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 50%auto;
+}
+#Headers {
+  font-size: 24px;
+}
+#name{
+  font-size: 26px;
+  font-style: oblique;
 }
